@@ -1,0 +1,11 @@
+import 'dart:io';
+
+void main() {
+  print("Hello");
+  print("World");
+  
+  stdout.write("hello world\n");
+  
+  String? sh = stdin.readLineSync(); // Declare sh as nullable
+  print("You entered: $sh"); // Print the input received from the user
+}
